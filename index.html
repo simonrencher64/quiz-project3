@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Quiz</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+       <script src="script.js"></script>
+   </head>
+   <body>
+		<div id="1" class="active">
+			<h1>2 + 2 = ?</h1>
+			<div>
+				<p id="11" class="answer" onclick="sel()">1</p>
+				<p id="12" class="answer" onclick="sel()">2</p>
+				<p id="13" class="answer" onclick="sel()">3</p>
+				<p id="14" class="correct answer" onclick="sel()">4</p>
+			</div>
+		</div>
+		
+		<div id="2">
+			<h1 class="hidden">1 + 1 = ?</h1>
+			<div>
+				<p id="21" class="hidden answer" onclick="sel()">1</p>
+				<p id="22" class="hidden answer correct" onclick="sel()">2</p>
+				<p id="23" class="hidden answer" onclick="sel()">3</p>
+				<p id="24" class="hidden answer" onclick="sel()">4</p>
+			</div>
+		</div>
+
+		<div  id="3">
+			<h1 class="hidden">1 + 3 = ?</h1>
+			<div>
+				<p id="31" class="hidden answer" onclick="sel()">1</p>
+				<p id="32" class="hidden answer" onclick="sel()">2</p>
+				<p id="33" class="hidden answer" onclick="sel()">3</p>
+				<p id="34" class="hidden answer correct" onclick="sel()">4</p>
+			</div>
+		</div>
+
+		<div id="4">
+			<h1 class="hidden">2 + 1 = ?</h1>
+			<div>
+				<p id="41" class="hidden answer" onclick="sel()">1</p>
+				<p id="42" class="hidden answer" onclick="sel()">2</p>
+				<p id="43" class="hidden answer correct" onclick="sel()">3</p>
+				<p id="44" class="hidden answer" onclick="sel()">4</p>
+			</div>
+		</div>
+	   
+	   	<div id="5">
+			<h1 class="hidden">0 + 1 = ?</h1>
+			<div>
+				<p id="51" class="hidden answer correct" onclick="sel()">1</p>
+				<p id="52" class="hidden answer" onclick="sel()">2</p>
+				<p id="53" class="hidden answer" onclick="sel()">3</p>
+				<p id="54" class="hidden answer" onclick="sel()">4</p>
+			</div>
+		</div>
+	   
+		<div id="6">
+			<h1 class="hidden">4 + 0 = ?</h1>
+			<div>
+				<p id="61" class="hidden answer"  onclick="sel()">1</p>
+				<p id="62" class="hidden answer" onclick="sel()">2</p>
+				<p id="63" class="hidden answer" onclick="sel()">3</p>
+				<p id="64" class="hidden answer correct" onclick="sel()">4</p>
+			</div>
+		</div>
+	   
+		<div id="7">
+			<h1 class="hidden">5 - 3 = ?</h1>
+			<div>
+				<p id="71" class="hidden answer"  onclick="sel()">1</p>
+				<p id="72" class="hidden answer correct" onclick="sel()">2</p>
+				<p id="73" class="hidden answer" onclick="sel()">3</p>
+				<p id="74" class="hidden answer" onclick="sel()">4</p>
+			</div>
+		</div>
+	   
+		<div id="8">
+			<h1 class="hidden">0 + 3 = ?</h1>
+			<div>
+				<p id="81" class="hidden answer" onclick="sel()">1</p>
+				<p id="82" class="hidden answer" onclick="sel()">2</p>
+				<p id="83" class="hidden answer correct" onclick="sel()">3</p>
+				<p id="84" class="hidden answer" onclick="sel()">4</p>
+			</div>
+		</div>
+	   
+		<div id="9">
+			<h1 class="hidden">0 + 2 = ?</h1>
+			<div>
+				<p id="91" class="hidden answer" onclick="sel()">1</p>
+				<p id="92" class="hidden answer correct" onclick="sel()">2</p>
+				<p id="93" class="hidden answer" onclick="sel()">3</p>
+				<p id="94" class="hidden answer" onclick="sel()">4</p>
+			</div>
+		</div>
+	   
+		<div id="10">
+		<h1 class="hidden">100 - 98 = ?</h1>
+			<div>
+				<p id="101" class="hidden answer" onclick="sel()">1</p>
+				<p id="102" class="hidden answer correct" onclick="sel()">2</p>
+				<p id="103" class="hidden answer" onclick="sel()">3</p>
+				<p id="104" class="hidden answer" onclick="sel()">4</p>
+			</div>
+		</div>
+		
+		<p id="submit" class="hidden">Submit</p>
+		<p id="correct" class="hidden">Correct!</p>
+		<p id="wrong" class="hidden">Wrong!</p>
+		<p id="continue" class="hidden">Continue</p>
+   </body>
+</html>
 
